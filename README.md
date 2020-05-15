@@ -1,7 +1,7 @@
 # zenyth-framework
 Simple Discord bot framework
 
-##Example module
+## Example module
     class Example(commands.Cog):
 		def __init__(self, bot):
 			self.bot = bot
