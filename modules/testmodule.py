@@ -1,8 +1,14 @@
+import discord
 from discord.ext import commands
 
-@commands.command()
-async def helloworld(ctx):
-    await ctx.channel.send("hello!")
+class Testmodule(commands.Cog):
+    def __init__(self, bot):
+        self.bot = bot
+
+    @commands.command()
+    async def test(self, ctx):
+        await ctx.channel.send("hello!")
 
 def setup(bot):
-    bot.add_command(helloworld)
+    bot.add_cog(Testmodule(bot))
+

@@ -10,7 +10,9 @@ bot = commands.Bot(command_prefix=str(config["command_prefix"]))
 
 
 for module in os.listdir("modules"):
-    module = "modules." + module
-    bot.load_extension(module)
+    if(module[0] != '_'):
+        module = "modules." + module[:-3]
+        bot.load_extension(module)
+
 
 bot.run(str(config["token"]))
