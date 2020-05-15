@@ -1,0 +1,3 @@
+token: "token_here"
+command_prefix: "!"
+log_folder_path: "/edit/me"
