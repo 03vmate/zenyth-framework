@@ -5,16 +5,16 @@ Simple Discord bot framework
 Assuming '!' as `command_prefix'
 
 List modules
-    !modules
+`!modules`
 
 Load module
-    !load module
+`!load module`
 
 Unload module
-    !unload module
+`!unload module`
 
 Reload module
-    !reload module
+`!reload module`
 
 
 ## Example configuration
