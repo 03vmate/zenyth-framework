@@ -1,6 +1,22 @@
 # zenyth-framework
 Simple Discord bot framework
 
+## Framework commands
+Assuming '!' as `command_prefix'
+
+List modules
+    !modules
+
+Load module
+    !load module
+
+Unload module
+    !unload module
+
+Reload module
+    !reload module
+
+
 ## Example configuration
 ```yaml
 token: "token_here"
