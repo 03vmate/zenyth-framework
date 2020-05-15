@@ -2,19 +2,15 @@
 Simple Discord bot framework
 
 ## Framework commands
-Assuming '!' as `command_prefix'
+Assuming `!` as `command_prefix`
 
-List modules
-`!modules`
+List modules: `!modules`
 
-Load module
-`!load module`
+Load module: `!load module`
 
-Unload module
-`!unload module`
+Unload module: `!unload module`
 
-Reload module
-`!reload module`
+Reload module: `!reload module`
 
 
 ## Example configuration
