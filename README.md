@@ -1,6 +1,14 @@
 # zenyth-framework
 Simple Discord bot framework
 
+## Example configuration
+```yaml
+token: "token_here"
+command_prefix: "!"
+log_folder_path: "/edit/me"
+```
+Save it as `config.yaml` in the same folder as `core.py`
+
 ## Example module
 ```python
 class Example(commands.Cog):
