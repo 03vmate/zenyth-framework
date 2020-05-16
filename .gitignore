@@ -1,1 +1,4 @@
 config.yaml
+__pycache__
+modules/__pycache__
+serverprofiles
